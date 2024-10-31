@@ -1,0 +1,215 @@
+/* Front-End */
+.front-rts {
+	width:350px;float:right;background:#DAF7A6;border-radius:5px;padding:10px;border-collapse:separate;
+}
+.front-rts th {
+	border-width:0px;
+}
+.front-rts td {
+	border-width:0px;
+}
+.front-rts input[type="text"], textarea {
+	width:100%;background: #fff none repeat scroll 0 0;border: 1px solid #bbb;border-radius: 3px;color: #666;display: block;padding: 0.7em;
+}
+.front-rts th h2 {
+	width:100%;margin:10px 0;padding-bottom:10px;color:#78788c;border-bottom:1px solid #bebed2;text-align:center;clear:both;
+}
+.front-rts p.message {
+	width:100%;font-weight:bold;font-size:22px;color:#FF0000;text-align:center;
+}
+.front-rts td label strong {
+	color:#FF0000;font-size:14px;
+}
+.front-rts td label {
+	color:#78788c;font-weight:inherit;
+}
+
+.front-rts .error {
+	background-color: #ffbaba;
+    color: #d8000c;
+    display: none;
+    font-size: 13px;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+/* front side media query */
+@media only screen and (max-width: 480px) {
+    .front-rts {
+        width:auto;
+    }
+}
+
+
+
+
+
+
+/* Front side - Chart */
+.front-rts-graph {
+	width: 400px;
+	height:auto;
+	background: #DAF7A6;
+	border-radius:5px;
+	padding:10px;
+	clear:both;
+	color:#FFF;
+}
+.front-rts-graph .question{
+	background:#000080;
+	padding:10px;
+	text-align:center;
+	margin-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:5px;
+}
+.front-rts-graph .row{
+	width:100%;
+	clear:both;
+	padding-top:10px;
+	padding-bottom:35px;
+}
+.front-rts-graph .firstcol{
+	width:40%;
+	line-height: 20px;
+	padding:8px;
+	float:left;
+	font-size:15px;
+	border-radius:5px;
+}
+.front-rts-graph #firstcol-1{
+	background-color:#006400;
+}
+.front-rts-graph #firstcol-2{
+	background-color:#0000FF;
+}
+.front-rts-graph .secondcol{
+	width:58%;
+	float:right;
+	margin-left:5px;
+	font-size:11px;
+}
+.front-rts-graph .secondcol .percentage{
+	width:66%;
+	float:left;
+	border-left:1px solid #000;
+}
+.front-rts-graph .secondcol .percentage .percentage-sub{
+	background-color:#cc4400;
+	float:right;
+	padding-top:36px;
+}
+.front-rts-graph .secondcol .percentage #percentage-sub-1{
+	background-color:#006400;
+}
+.front-rts-graph .secondcol .percentage #percentage-sub-2{
+	background-color:#0000FF;
+}
+.front-rts-graph .secondcol .thirdcol-sub{
+	width:30%;
+	float:right;
+	background-color:#cc4400;
+	line-height: 20px;
+	padding:8px;
+	border-left:1px solid #000;
+	margin-left:4px;
+	text-align:center;
+	border-radius:5px;
+}
+.front-rts-graph .secondcol #thirdcol-sub-1{
+	background-color:#006400;
+}
+.front-rts-graph .secondcol #thirdcol-sub-2{
+	background-color:#0000FF;
+}
+.front-rts-graph .bottomact{
+	width:100%;
+	padding-top:25px;
+}
+.front-rts-graph .bottomact .btndiv{
+	width:110px;
+	margin:0 auto;
+}
+.front-rts-graph .bottomact .backact{
+	width:110px;
+	background-color:#808000;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size:16px;
+    font-weight: 800;
+    line-height: 1;
+    padding: 14px 0px;
+    text-align:center;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+/* Back-End */
+table#admin-rts-table{
+	width: 80%;
+	margin-top:25px;
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table#admin-rts-table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+	font-size:14px;
+}
+table#admin-rts-table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+table#admin-rts-table td label {
+	font-weight:bold;
+}
+
+table#admin-rts-table td input[type="text"] {
+	font-size:12px;
+	height: 30px;
+	width:100%;
+}
+
+table#admin-rts-table #btnsaveform {
+	height: 35px;
+    line-height: 35px;
+    padding: 0 25px 10px;
+    margin: 0px 20px 0px 0px;
+	
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    
+    background: #0085ba none repeat scroll 0 0;
+    color: #fff;
+    box-shadow: 0 1px 0 #006799;
+    border-color: #0073aa #006799 #006799;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    white-space: nowrap;
+}
